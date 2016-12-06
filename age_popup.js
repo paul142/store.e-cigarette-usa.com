@@ -2962,8 +2962,8 @@ JQ(document).ready(function () {
         JQ('body').append('<div id="siteAge-PopUp-bg" style="background-color: #000000; opacity: 0.8;cursor: auto;display: block;width:100%;height:100%;position:fixed;top:0;left:0;z-index:100000;"></div>' +
             '<div id="siteAge-PopUp-box" style="width:486px;height:515px;position:fixed;top:50%;left:50%;margin: -250px 0 0 -243px;background: url(' + age_popup_4_png + ') 50% 50% no-repeat;z-index:100002;">' +
             '<div class="age-popup" style="width:444px;height:110px;position:absolute;overflow:hidden;top:380px;left:20px;text-align:center;">' +
-            '<div class="button-set"><input class="button age-18" type="button" id="ageNotMatch" style="background: url(' + grp_buttons_png + ') no-repeat scroll 0 -56px transparent;border: medium none;cursor: pointer;height: 43px;width: 158px;" />' +
-            '<input type="button" value="" class="button age-18-plus" id="callAgeMatch" style="background: url(' + grp_buttons_png + ') no-repeat scroll -168px -56px transparent;margin-left:10px;border: medium none;cursor: pointer;height: 43px;width: 158px;" /></div>' +
+            '<div class="button-set"><input class="button age-18" type="button" id="ageNotMatch" style="background: url(' + grp_buttons_png + ') no-repeat scroll 0 0px transparent;border: medium none;cursor: pointer;height: 43px;width: 158px;" />' +
+            '<input type="button" value="" class="button age-18-plus" id="callAgeMatch" style="background: url(' + grp_buttons_png + ') no-repeat scroll -168px 0px transparent;margin-left:10px;border: medium none;cursor: pointer;height: 43px;width: 158px;" /></div>' +
             '<p style="margin: 8px auto;width:80%;">Intended for sale to adults 21 years or older. If you are not legally able to purchase tobacco products in the state where you live, please do not enter this site</p></div></div>');
         JQ("#ageNotMatch").click(function () {
             location.href = 'http://www.google.com/';
