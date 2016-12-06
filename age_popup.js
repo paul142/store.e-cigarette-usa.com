@@ -2964,7 +2964,7 @@ JQ(document).ready(function () {
             '<div class="age-popup" style="width:444px;height:110px;position:absolute;overflow:hidden;top:380px;left:20px;text-align:center;">' +
             '<div class="button-set"><input class="button age-18" type="button" id="ageNotMatch" style="background: url(' + grp_buttons_png + ') no-repeat scroll 0 -56px transparent;border: medium none;cursor: pointer;height: 43px;width: 158px;" />' +
             '<input type="button" value="" class="button age-18-plus" id="callAgeMatch" style="background: url(' + grp_buttons_png + ') no-repeat scroll -168px -56px transparent;margin-left:10px;border: medium none;cursor: pointer;height: 43px;width: 158px;" /></div>' +
-            '<p style="margin: 8px auto;width:80%;">Intended for sale to adults 18 years or older. If you are not legally able to purchase tobacco products in the state where you live, please do not enter this site</p></div></div>');
+            '<p style="margin: 8px auto;width:80%;">Intended for sale to adults 21 years or older. If you are not legally able to purchase tobacco products in the state where you live, please do not enter this site</p></div></div>');
         JQ("#ageNotMatch").click(function () {
             location.href = 'http://www.google.com/';
         });
